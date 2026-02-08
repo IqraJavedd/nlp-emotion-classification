@@ -1,4 +1,4 @@
-readme_content = """# NLP Emotion Classification Project
+NLP Emotion Classification Project
 
 Multi-class emotion classification on tweet dataset using Neural Networks.
 
