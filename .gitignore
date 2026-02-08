@@ -1,4 +1,10 @@
-gitignore_content = """# Python
+# Open .gitignore and make sure these lines are there:
+cat .gitignore
+```
+
+Your `.gitignore` should contain:
+```
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -12,10 +18,11 @@ ENV/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Models (optional - if too large)
-# models/*.h5
+# Large model files - DON'T push to GitHub
+*.h5
+models/*.h5
 
-# Data (optional - if too large)
+# Large data files (optional)
 # data/*.txt
 
 # IDE
@@ -27,12 +34,3 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
-# Large files
-*.h5
-"""
-
-with open('.gitignore', 'w') as f:
-    f.write(gitignore_content)
-
-print(".gitignore created!")
