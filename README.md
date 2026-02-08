@@ -80,14 +80,3 @@ Emotion-labeled tweets dataset
 **Iqra Javed**  
 [https://github.com/IqraJavedd] | [https://drive.google.com/file/d/1UYWr-558un_9B5b41xi1AGb0sckjkKIO/view?usp=sharing]
 
-## License
-
-This project is open source and available under the MIT License.
-
-"""
-
-# Save README
-with open('README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print(" README.md created!")
