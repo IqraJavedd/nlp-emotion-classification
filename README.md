@@ -56,10 +56,10 @@ jupyter notebook nlpml.ipynb
 
 ### Key Insights
 
-✓ Word order matters for emotion classification  
-✓ Bidirectional LSTM captures context best  
-✓ Sequential models outperform bag-of-words  
-✓ Dropout prevents overfitting effectively
+1. Word order matters for emotion classification  
+2. Bidirectional LSTM captures context best  
+3. Sequential models outperform bag-of-words  
+4. Dropout prevents overfitting effectively
 
 ## Technologies Used
 
@@ -74,21 +74,16 @@ jupyter notebook nlpml.ipynb
 Emotion-labeled tweets dataset  
 - 6 emotion classes
 - Train/Test/Validation split
-- Source: [Add source if available]
 
 ## Author
 
-**Your Name**  
-[Your GitHub] | [Your LinkedIn]
+**Iqra Javed**  
+[https://github.com/IqraJavedd] | [https://drive.google.com/file/d/1UYWr-558un_9B5b41xi1AGb0sckjkKIO/view?usp=sharing]
 
 ## License
 
 This project is open source and available under the MIT License.
 
-## Acknowledgments
-
-- EPITA Paris - NLP Course
-- Course Instructor: Romain Benassi
 """
 
 # Save README
