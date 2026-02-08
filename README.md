@@ -16,25 +16,6 @@ This project classifies tweets into 6 emotions: **anger, fear, joy, love, sadnes
 
 ## Best Model: Bidirectional LSTM (90.20%)
 
-## Project Structure
-```
-nlp-emotion-classification/
-├── nlpml.ipynb              # Main notebook
-├── models/                  # Saved models
-│   ├── model1_fcnn.h5
-│   ├── model2_lstm.h5
-│   └── model3_transformer.h5
-├── data/                    # Dataset files
-│   ├── train.txt
-│   ├── test.txt
-│   └── validation.txt
-├── reports/                 # Analysis reports
-│   └── final_project_report.txt
-├── README.md
-└── requirements.txt
-```
-
-## Getting Started
 
 ### Prerequisites
 ```bash
